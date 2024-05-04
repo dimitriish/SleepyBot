@@ -33,7 +33,14 @@ python src/app.py
 Two main flows: unsubscribed and subscribed
 
 For unsubscribed flow: 
- - greeting_node 
- - more_info_node
- - buy_sub_node
- - 
+ - greeting_node - First message after start
+ - more_info_node - More information about bot functions
+ - buying_sub_node - Buying sub functional
+ - remember_me - Remember user about our product after one day without messages
+ - fallback_node - Intent has no relevant nodes
+
+
+For subscribed flow: 
+ - greetings_node_after_sub - First message after subscription
+ - rag_node - Question Answering based on RAG from local DB
+ - daily_rituals_node - daily script, to create new habits and remind to sleep
