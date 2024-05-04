@@ -1,0 +1,6 @@
+python-dotenv
+openai
+numpy
+torch
+sentence-transformers
+faiss
